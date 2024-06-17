@@ -3,8 +3,8 @@ def main():
     first_feature()
     second_feature()
 
+def first_feature():
+    print("Hello from the feature1 branch!")
 
 if __name__ == "__main__":
     main()
-
-#this is where the first and the second feature are implemented
