@@ -3,11 +3,10 @@ def main():
     first_feature()
     second_feature()
 
-def first_feature():
-    print("Hello from the feature1 branch!")
-    
-def second_feature():
-    print("Hello from the feature2 branch!")
 
 if __name__ == "__main__":
     main()
+
+
+# Pytest cannot find the correct file to run,
+# because there is not "test_" prefix in the file name.

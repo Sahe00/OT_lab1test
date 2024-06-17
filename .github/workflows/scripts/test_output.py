@@ -2,7 +2,7 @@
 
 import subprocess
 
-def check_output():
+def test_output():
     result = subprocess.run(['python', 'main.py'], capture_output=True, text=True)
     output = result.stdout
 
@@ -11,4 +11,4 @@ def check_output():
     assert "Hello from the feature2 branch!" in output, "second_feature() function did not run correctly"
 
 if __name__ == "__main__":
-    check_output()
+    test_output()
