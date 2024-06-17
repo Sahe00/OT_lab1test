@@ -8,5 +8,3 @@ if __name__ == "__main__":
     main()
 
 
-# Pytest cannot find the correct file to run,
-# because there is not "test_" prefix in the file name.
