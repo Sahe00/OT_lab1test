@@ -3,7 +3,7 @@
 import subprocess
 
 def test_output():
-    result = subprocess.run(['python', 'main.py'], capture_output=True, text=True)
+    result = subprocess.run(['python', './lab1/main.py'], capture_output=True, text=True)
     output = result.stdout
 
     assert "Hello from the main branch!" in output, "main() function did not run correctly"
