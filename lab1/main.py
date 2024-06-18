@@ -4,7 +4,7 @@ def main():
     second_feature()
 
 def first_feature():
-    print("Hello from the feature1 branch!")
+    print("Hello from the feature1 branch! THIS IS ADDED TO FAIL THE TEST!")
 def second_feature():
     print("Hello from the feature2 branch!")
     
