@@ -23,5 +23,5 @@ jobs:
         pytest
     - name: Check output with script
       run: |
-        python ./.github/scripts/test_output.py
+        python ./.github/workflows/scripts/test_output.py
     

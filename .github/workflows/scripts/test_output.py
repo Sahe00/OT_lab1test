@@ -1,4 +1,3 @@
-# This is the file that will be executed by the workflow to check the output of the main.py file.
 
 import subprocess
 
