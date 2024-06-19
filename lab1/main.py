@@ -1,12 +1,16 @@
 def main():
-    print("Hello from the main branch!")
-    first_feature()
-    second_feature()
+    print(main_msg())
+    print(first_feature())
+    print(second_feature()) 
+
+def main_msg():
+    return "Hello from the main branch!"
 
 def first_feature():
-    print("Hello from the feature1 branch! THIS IS ADDED TO FAIL THE TEST!")
+    return "Hello from the feature1 branch!"
+    
 def second_feature():
-    print("Hello from the feature2 branch!")
+    return "Hello from the feature2 branch!"
     
 if __name__ == "__main__":
     main()
