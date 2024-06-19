@@ -9,8 +9,7 @@ def main_msg():
 def first_feature():
     return "Hello from the feature1 branch!"
     
-def second_feature():
-    return "Hello from the feature2 branch!"
-    
+
+
 if __name__ == "__main__":
     main()
