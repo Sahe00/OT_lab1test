@@ -1,6 +1,10 @@
 name: merge test
 
-on: [push]
+# Work only on the desired branch (not feature1,and feature2)
+on: 
+  push:
+    branches:
+      - main
 
 jobs:
   tests:

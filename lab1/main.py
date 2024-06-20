@@ -1,3 +1,5 @@
+# Could be replaced by a more complex code task
+
 def main():
     print(main_msg())
     print(first_feature())

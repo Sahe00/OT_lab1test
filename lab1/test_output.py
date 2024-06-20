@@ -1,5 +1,3 @@
-import pytest
-
 from lab1.main import main_msg, first_feature, second_feature
 
 def test_main():
